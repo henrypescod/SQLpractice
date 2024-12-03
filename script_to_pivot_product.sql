@@ -1,0 +1,29 @@
+SELECT id
+       ,'Liquor' product_type
+       ,amt_liq amount
+  FROM public.marketing_data
+UNION ALL
+SELECT id
+       ,'Vegetables' product_type
+       ,amt_vege amount
+  FROM public.marketing_data
+UNION ALL
+SELECT id
+       ,'Non-Vegetables' product_type
+       ,amt_non_veg amount
+  FROM public.marketing_data
+UNION ALL
+SELECT id
+       ,'Seafood' product_type
+       ,amt_pes amount
+  FROM public.marketing_data
+UNION ALL
+SELECT id
+       ,'Chocolates' product_type
+       ,amt_choc amount
+  FROM public.marketing_data
+UNION ALL
+SELECT id
+       ,'Comm' product_type
+       ,amt_comm amount
+  FROM public.marketing_data;
